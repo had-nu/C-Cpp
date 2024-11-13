@@ -1,10 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    /*Você pode controlar o fluxo do programa usando 
-    estruturas de controle como 
-    if, else, for, while e do-while.
-    */
+    
    int idade; // Variável setada vazia solicita que o usuário digite a idade
    printf("Digite a sua idade: ");
    scanf("%d", &idade); //lê um número inteiro digitado pelo usuário e armazena-o na variável idade. O símbolo & (e comercial) é necessário para fornecer o endereço da variável idade, onde o valor será armazenado.
@@ -17,3 +14,8 @@ int main(){
    }
     return 0;
 }
+
+/*Você pode controlar o fluxo do programa usando 
+    estruturas de controle como 
+    if, else, for, while e do-while.
+    */

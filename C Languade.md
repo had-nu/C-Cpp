@@ -13,11 +13,12 @@
 
     - Aqui você pode definir variáveis globais (visíveis em todo o programa) ou **definir** funções auxiliares antes de seu uso. Por exemplo:
     ```
+    bash
     // Definição da função auxiliar
     int soma(int a, int b) {
         return a + b;
-    }
-    ```
+    } ```
+    
     - Essas declarações não são obrigatórias, mas ajudam o compilador a identificar funções e variáveis que estarão disponíveis no programa.
 
 ### Função `main`
@@ -30,6 +31,7 @@
 
 #### Exemplo Completo com Estrutura Típica
     ```
+    bash
     #include <stdio.h>  // Cabeçalho da biblioteca para entrada e saída
 
    // Definição da função auxiliar

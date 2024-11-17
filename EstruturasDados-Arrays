@@ -1,0 +1,24 @@
+/* 
+1. Arrays (Vetores e Matrizes): Um array é uma coleção de elementos do mesmo tipo, 
+organizados sequencialmente na memória. 
+Cada elemento pode ser acessado por meio de um índice, começando de 0.
+*/
+
+// 1.1 Exemplo de declaração
+int numeros[5]; // Um Array para armazenar 5 inteiros
+
+// 1.2 Exemplo de definição e inicialização
+int numeros[5] = {10, 20, 30, 40, 50}; // Podemos inicializar um array no momento da declaração
+
+// Se não inicializarmos todos os valores, o restante será automaticamente preenchido com zeros.
+int numeros[5] = {10, 20}; // {10, 20, 0, 0, 0}
+
+// 1.3 Acessando os Elementos
+// Podemos acessar e modificar os elementos com seus índices
+numeros[0] = 15; // Modifica o primeiro elemento para 15
+printf("%d\n", numeros[0]); // Deve imprimir 15
+
+// 1.4 Iteração sobre Arrays
+for (int i = 0; i < 5; i++) {
+    printf("Elemento %d: %d\n", i, numeros[i]); // Com loops, podemos acessar todos os elementos
+}
